@@ -1,0 +1,55 @@
+/***************TAG SELECTOR******************************/
+
+
+h1:hover{
+    color: red;
+    font-size: 100px;
+}
+
+img:hover{
+    background-color: red;
+}
+
+
+/********************CLASS SELECTOR***********************/
+/*
+    Class selectors > Tag selector 
+        - Any element can have mote than one class but can only have one id
+        - Any element can't have class & id at the same time
+*/
+
+
+.bacon{
+    background-color: blue;
+    width: 100px;
+    
+}
+
+.broccoli{
+    background-color: green;
+    width: 100px;
+    
+}
+
+.circular{
+    border-radius: 100%;
+    
+}
+
+
+/********************ID SELECTOR***********************/
+/*
+    Recommended:- Don't use Id in selectors
+        - if needed badly then u can use it
+        - Id can be used only once in a page 
+        - but class can be used many times in a page or in an element as well
+*/
+
+/*
+    Any html element can have more than one class but can only have one ID
+*/
+#heading{
+    color: blueviolet;
+}
+
+
