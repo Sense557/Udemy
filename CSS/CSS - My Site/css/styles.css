@@ -2,10 +2,11 @@ body {
     margin-top: 100px;
     text-align: center;
     font-family: "Merriweather", serif;
+    background-color: #EAF6F6;
 }
 
-.profile{
-    margin-top: 100px;
+.profile-image{
+    margin-top: 50px;
 }
 
 a {
@@ -81,14 +82,10 @@ h3 {
     float: right;
 }
 
-.top-container{
-    background-color: #EAF6F6;
+.middle-container{
+    background-color: white;
 }
 
 .bottom-container{
     background-color: #66BFBF;
-}
-
-.footer-link{
-    
 }
