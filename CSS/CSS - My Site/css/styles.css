@@ -4,9 +4,27 @@ body {
     font-family: "Merriweather", serif;
 }
 
+.profile{
+    margin-top: 100px;
+}
+
 a {
     color: #11999e;
 }
+
+P{
+    color: #40514E;
+}
+
+hr{
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+    
 
 h1 {
     font-size: 5.625rem;
@@ -31,6 +49,14 @@ h3 {
     text-decoration: underline;
 }
 
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
 .topcloud {
     position: absolute;
     right: 300px;
@@ -39,4 +65,30 @@ h3 {
 
 .bottomcloud {
     position: absolute;
+
+}
+
+.code-img{
+    width: 25%;
+    margin-right:  30px;
+    float: left;
+    
+}
+
+.chilli-img{
+    width: 25%;
+    margin-right:  30px;
+    float: right;
+}
+
+.top-container{
+    background-color: #EAF6F6;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+}
+
+.footer-link{
+    
 }
