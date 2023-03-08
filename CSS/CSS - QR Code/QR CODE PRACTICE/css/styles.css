@@ -6,19 +6,20 @@ body{
     margin: 100px auto 0 auto;
 }
 img{
-    width: 92%;
+    width: 87%;
     border-radius: 5%;
-    margin-top: 10px;
+    margin-top: 16px;
     
 }
 
 h1{
     font-family: 'Outfit';
-    font-size: 22px;
-    margin-top: 40px;
+    font-size: 21px;
+    margin-top: 15px;
 }
 p{
     font-family: 'Outfit';
+    font-size: 15px;
     color: hsl(220, 15%, 55%);
     margin: auto;
     text-align: center;
@@ -32,10 +33,10 @@ p{
 }
 .container-inside{
     background-color: white;
-    width: 16rem;
+    width: 15rem;
     height: 5rem;
     position: absolute;
     border-radius: 5%;
     text-align: center;
-    padding-left: 6%;
+    padding: 8%;
 }
