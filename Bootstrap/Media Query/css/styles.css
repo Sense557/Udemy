@@ -1,0 +1,94 @@
+
+/* media print */
+
+/* @media print {
+
+    h1{
+        color: blue;
+    }
+    
+} */
+
+/* 🎗️🎗️🎗️🎗️🎗️🎗️ */
+
+
+/* media screen */
+
+/* @media (min-width: 900px) {
+
+    h1{
+        color: red;
+    }
+    
+} */
+
+
+/* 🎗️🎗️🎗️🎗️🎗️🎗️ */
+
+/* @media (max-width: 900px) {
+
+    h1{
+        color: red;
+    }
+    
+} */
+
+/* 🎗️🎗️🎗️🎗️🎗️🎗️ */
+
+/* @media (max-width: 900px) {
+
+    h1{
+        color: red;
+    }
+    
+} */
+
+
+/* 🎗️🎗️🎗️🎗️🎗️🎗️ */
+
+
+/* h1{
+    font-size: 50px;
+}
+
+@media (max-width: 900px) {
+
+    h1{
+        font-size: 100px;
+    }
+    
+} */
+
+
+/* 🎗️🎗️🎗️🎗️🎗️🎗️ */
+
+/* h1{
+    font-size: 50px;
+}
+
+@media (min-width: 900px) {
+
+    h1{
+        font-size: 100px;
+    }
+    
+} */
+
+
+
+/* 🎗️🎗️🎗️🎗️🎗️🎗️ */
+
+
+h1{
+    font-size: 50px;
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+
+    h1{
+        font-size: 100px;
+    }
+    
+}
+
+/* 🎗️🎗️🎗️🎗️🎗️🎗️ */
