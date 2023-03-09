@@ -11,13 +11,22 @@ body{
     padding: 3% 15%;
 }
 
+
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
+h3{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
 /* Navigation bar */
 
 .navbar{
@@ -34,10 +43,38 @@ h1{
     font-weight:100px ;
 }
 
+.download-button{
+    margin: 5% 3% 5%;
+}
 
 
 .navbar-brand{
     font-family: Ubuntu;
     font-size: 2.5em;
     font-weight: bold;
+}
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Title Image */
+
+.image-iphone{
+    width: 60%;
+    transform: rotate(25deg);
 }
