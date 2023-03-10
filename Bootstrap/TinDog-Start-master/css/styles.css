@@ -1,39 +1,28 @@
 body{
     font-family: 'Montserrat' ;
+    text-align: center;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-.container-fluid{
-    padding: 3% 15% 7%;
-}
-
-
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
-
-h2{
+h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 
-h3{
-    font-family: Montserrat;
-    font-weight: bold;
-}
 
 p{
     color: #8f8f8f;
 }
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+
+
+
+
+
 /* Navigation bar */
 
 .navbar{
@@ -54,6 +43,28 @@ p{
     margin: 5% 3% 5%;
 }
 
+/* Sections */
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+
+/* Title Section */
+
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
 
 /* Title Image */
 
@@ -62,7 +73,26 @@ p{
     transform: rotate(25deg);
     position: absolute;
     margin-left: 80px;
+    margin-top: 20px;
 }
+
+
+
+#footer{
+    background-color: #fff;
+}
+
+.social-icon{
+    margin: 5px 10px;
+    
+}
+
+.copyright{
+    padding-top: 20px;
+}
+
+
+
 
 
 .navbar-brand{
@@ -72,14 +102,17 @@ p{
 }
 
 #features{
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
 
 }
 
+.feature-title{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
@@ -94,14 +127,35 @@ p{
 
 
 
+
 /* testimonials */
 
 #testimonials{
-    text-align: center;
     background-color: #EF8172;
-    color: #fff;
+}
+
+.testimonial-text{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Headings */
+
+.big-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
 
 }
+
+.section-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 
 .testimonial-image{
     width: 10%;
@@ -109,13 +163,9 @@ p{
     padding: 15px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
 
 #press{
     background-color: #EF8172;
-    text-align: center;
 }
 
 .press-logo{
@@ -129,26 +179,28 @@ p{
     padding: 100px;
 }
 
+.price-text{
+    font-size: 3rem;
+    font-weight: bold;  
+}
+
 .pricing-column{
     padding: 3% 2%;
     text-align: center;
 }
 
 
-
 /* Media Query Breakpoints */
 
 @media (max-width: 995px) {
 
-    #title{
+    #title .container-fluid{
         text-align: center;
         margin-right: 30px;
     }
 
 
     .image-iphone{
-
-        
         position: static;
         transform: rotate(0);   
         width: 60%;
